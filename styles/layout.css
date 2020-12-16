@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+}
+
+.topbar{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:75px;
+}
+
+.menustrip{
+    position:fixed;
+    top:75px;
+    left:0px;
+    right:0px;
+    height:40px;
+    line-height: 40px;
+}
+
+.leftpanel{
+    position:fixed;
+    left:0px;
+    top:115px;
+    bottom:0px;
+    width:300px;
+}
+
+.contentpanel{
+    position:fixed;
+    left:300px;
+    top:115px;
+    bottom:0px;
+    right:0px;
+}
+
+.treeitem{
+    margin-left:15px;
+}
