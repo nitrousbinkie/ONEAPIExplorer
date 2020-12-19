@@ -1,0 +1,333 @@
+{
+    "Definition": {
+        "Id": 137,
+        "Name": "System.BaseIndex",
+        "Description": "System.BaseIndex",
+        "Source": "BaseIndex",
+        "SourceType": 1,
+        "HasEncryptedColumns": false,
+        "IdColumn": "BaseIndexId",
+        "Columns": [
+            {
+                "DisplayName": "BaseIndexId",
+                "Description": "BaseIndexId",
+                "SourceColumn": "BaseIndexId",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": true
+            },
+            {
+                "DisplayName": "BaseName",
+                "Description": "BaseName",
+                "SourceColumn": "BaseName",
+                "DataType": "Text",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "SchemaCode",
+                "Description": "SchemaCode",
+                "SourceColumn": "SchemaCode",
+                "DataType": "Text",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "IsEnabled",
+                "Description": "IsEnabled",
+                "SourceColumn": "IsEnabled",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "MultiplePhoneNumberTypeId",
+                "Description": "MultiplePhoneNumberTypeId",
+                "SourceColumn": "MultiplePhoneNumberTypeId",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "AbandonmentPromptId",
+                "Description": "AbandonmentPromptId",
+                "SourceColumn": "AbandonmentPromptId",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "ProjectStartDate",
+                "Description": "ProjectStartDate",
+                "SourceColumn": "ProjectStartDate",
+                "DataType": "DateTime",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "ProjectEndDate",
+                "Description": "ProjectEndDate",
+                "SourceColumn": "ProjectEndDate",
+                "DataType": "DateTime",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "ScriptName",
+                "Description": "ScriptName",
+                "SourceColumn": "ScriptName",
+                "DataType": "Text",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "DialDuration",
+                "Description": "DialDuration",
+                "SourceColumn": "DialDuration",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "ClaimOrderFresh",
+                "Description": "ClaimOrderFresh",
+                "SourceColumn": "ClaimOrderFresh",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "ClaimOrderHighPriorityCallbacks",
+                "Description": "ClaimOrderHighPriorityCallbacks",
+                "SourceColumn": "ClaimOrderHighPriorityCallbacks",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "ClaimOrderLowPriorityCallbacks",
+                "Description": "ClaimOrderLowPriorityCallbacks",
+                "SourceColumn": "ClaimOrderLowPriorityCallbacks",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "ClaimOrderDefaultPriorityFresh",
+                "Description": "ClaimOrderDefaultPriorityFresh",
+                "SourceColumn": "ClaimOrderDefaultPriorityFresh",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "AMDEnabled",
+                "Description": "AMDEnabled",
+                "SourceColumn": "AMDEnabled",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "MaxInitialSilence",
+                "Description": "MaxInitialSilence",
+                "SourceColumn": "MaxInitialSilence",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "MaxHumanSpeakerTime",
+                "Description": "MaxHumanSpeakerTime",
+                "SourceColumn": "MaxHumanSpeakerTime",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "MaxInterSpeakerTimeout",
+                "Description": "MaxInterSpeakerTimeout",
+                "SourceColumn": "MaxInterSpeakerTimeout",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "PreviewModeEnabled",
+                "Description": "PreviewModeEnabled",
+                "SourceColumn": "PreviewModeEnabled",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "PreviewCallbackEnabled",
+                "Description": "PreviewCallbackEnabled",
+                "SourceColumn": "PreviewCallbackEnabled",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "MinCriticalClaimRedial",
+                "Description": "MinCriticalClaimRedial",
+                "SourceColumn": "MinCriticalClaimRedial",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "ApplyTpsList",
+                "Description": "ApplyTpsList",
+                "SourceColumn": "ApplyTpsList",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "ApplyDnCList",
+                "Description": "ApplyDnCList",
+                "SourceColumn": "ApplyDnCList",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "CPAEnabled",
+                "Description": "CPAEnabled",
+                "SourceColumn": "CPAEnabled",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "CPAB2B",
+                "Description": "CPAB2B",
+                "SourceColumn": "CPAB2B",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "CPADuration",
+                "Description": "CPADuration",
+                "SourceColumn": "CPADuration",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "AgentSpecificOnlyEnabled",
+                "Description": "AgentSpecificOnlyEnabled",
+                "SourceColumn": "AgentSpecificOnlyEnabled",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "CLI",
+                "Description": "CLI",
+                "SourceColumn": "CLI",
+                "DataType": "PhoneNumber",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "GeoMatchEnabled",
+                "Description": "GeoMatchEnabled",
+                "SourceColumn": "GeoMatchEnabled",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "GeoMatchGroupId",
+                "Description": "GeoMatchGroupId",
+                "SourceColumn": "GeoMatchGroupId",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "RandomCLIEnabled",
+                "Description": "RandomCLIEnabled",
+                "SourceColumn": "RandomCLIEnabled",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "RandomCLIGroupId",
+                "Description": "RandomCLIGroupId",
+                "SourceColumn": "RandomCLIGroupId",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "ListConfigurationProfileId",
+                "Description": "ListConfigurationProfileId",
+                "SourceColumn": "ListConfigurationProfileId",
+                "DataType": "Int",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "ScheduleWindowEnabled",
+                "Description": "ScheduleWindowEnabled",
+                "SourceColumn": "ScheduleWindowEnabled",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            },
+            {
+                "DisplayName": "PreviewInterruptEnabled",
+                "Description": "PreviewInterruptEnabled",
+                "SourceColumn": "PreviewInterruptEnabled",
+                "DataType": "TrueFalse",
+                "ReadOnly": false,
+                "ProtectionLevel": 1,
+                "IsId": false
+            }
+        ],
+        "Parameters": []
+    },
+    "ResponseCode": 200,
+    "Message": "ok",
+    "ServerId": "X-WSF-77",
+    "RequestId": "9003e6d4-488f-441b-89d4-4fb9013301f4"
+}

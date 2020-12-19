@@ -1,7 +1,14 @@
 body{
     background-color: #303030;
     color:#a0a0a0;
-    font-family: 'calibri'
+    font-family: 'calibri';
+}
+
+.topbar{
+    background-image: url(../assets/logo.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 200px;
 }
 
 .menustrip{
@@ -10,4 +17,109 @@ body{
 
 .leftpanel{
     background-color: #404040;
+    padding-left:10px;
+    padding-right:10px;
+    box-sizing: border-box;
+}
+.leftpanel--heading{
+    height:35px;
+    line-height: 35px;
+    font-size: 1.05rem;
+}
+.leftpanel input{
+    outline: none;
+    background-color: #606060;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border:0;
+    width:470px;
+    box-sizing: border-box;
+    color:#00FFFF;
+}
+
+.tabstrip{
+    background-color: #202020;
+    height:35px;
+    overflow: hidden;
+}
+.tabstrip .tab{
+    float:left;    
+    min-width: 150px;
+    line-height: 35px;
+    padding-left:10px;
+    color:#707070;
+    cursor:pointer;
+    height:35px;
+}
+.tabstrip .tab:hover{
+    border-top:2px solid #707070;
+    line-height: 32px;
+    color:#a0a0a0;
+}
+.tabstrip .tab.active{
+    color:#a0a0a0;
+    border-top:2px solid #00FFFF;
+    line-height: 32px;
+    background-color: #303030;
+}
+
+#notifications
+{
+    text-align:right;
+}
+
+.notification{
+    color:#00FFFF;    
+    font-size:1.1rem;
+}
+
+.treeitem{
+    border:1px solid #404040;
+    padding-left:2px;
+    padding-right:2px;
+}
+
+.treeitem.table{
+    background-image: url(../assets/dark/table.png);
+    background-repeat: no-repeat;
+    padding-left:20px;
+}
+
+.treeitem.folder{
+    background-image: url(../assets/dark/folder.png);
+    background-repeat: no-repeat;
+    padding-left:20px;
+}
+
+.treeitem.column{
+    background-image: url(../assets/dark/column.png);
+    background-repeat: no-repeat;
+    padding-left:20px;
+}
+
+.treeitem.db{
+    background-image: url(../assets/dark/db.png);
+    background-repeat: no-repeat;
+    padding-left:20px;
+}
+
+.treeitem:hover{
+    border:1px solid #00FFFF;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #202020;
+}
+
+::-webkit-scrollbar-thumb {
+background: #606060;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #808080;
 }
