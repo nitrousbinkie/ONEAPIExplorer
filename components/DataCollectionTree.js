@@ -54,12 +54,15 @@
                                 options.getDataCollectionDescription(clientid, dc.DataCollectionCode, renderTableDescription(datacollectionchildren));
                             }
                         });
+                        datacollection.dblclick(function(){
+                            options.showDataCollection(clientid, dc.DataCollectionCode);
+                        });
                     }
                     else if(dc.DataCollectionType === "StoredProcedure"){
                         let datacollection = $("<div>");
-                        datacollection.addClass("treeitem table");
+                        datacollection.addClass("treeitem procedure");
                         datacollection.text(dc.DataCollectionCode);
-                        tableschildren.append(datacollection);
+                        procedureschildren.append(datacollection);
 
                         let datacollectionchildren = $("<div>")
                         datacollectionchildren.addClass("treechildren");
@@ -152,7 +155,7 @@
             lists.text("Lists");
             clientChildren.append(lists);
         }
-        
+
         return this;
     };
 }(jQuery));

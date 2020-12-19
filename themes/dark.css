@@ -104,6 +104,12 @@ body{
     padding-left:20px;
 }
 
+.treeitem.procedure{
+    background-image: url(../assets/dark/procedure.png);
+    background-repeat: no-repeat;
+    padding-left:20px;
+}
+
 .treeitem:hover{
     border:1px solid #00FFFF;
 }
